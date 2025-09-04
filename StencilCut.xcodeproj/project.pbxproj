@@ -1,0 +1,723 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		63189E452C83B27A006036AA /* StencilsEditScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E442C83B27A006036AA /* StencilsEditScreen.swift */; };
+		63189E462C83B27A006036AA /* StencilsEditScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E442C83B27A006036AA /* StencilsEditScreen.swift */; };
+		63189E482C83BA6C006036AA /* StencilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E472C83BA6C006036AA /* StencilView.swift */; };
+		63189E492C83BA6C006036AA /* StencilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E472C83BA6C006036AA /* StencilView.swift */; };
+		63189E4A2C83C2F3006036AA /* ShapeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A970FE2C7EFC8A00B14783 /* ShapeModel.swift */; };
+		63189E4B2C83C2F8006036AA /* ShapesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A971012C7F054400B14783 /* ShapesClient.swift */; };
+		63189E4C2C83C2FB006036AA /* StencilCutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A970CF2C7EF68700B14783 /* StencilCutApp.swift */; };
+		63189E4D2C83C2FC006036AA /* StencilCutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A970CF2C7EF68700B14783 /* StencilCutApp.swift */; };
+		63189E4E2C83C300006036AA /* StencilsHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A970D12C7EF68700B14783 /* StencilsHomeScreen.swift */; };
+		63189E4F2C83C301006036AA /* StencilsHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A970D12C7EF68700B14783 /* StencilsHomeScreen.swift */; };
+		63189E502C83C306006036AA /* StencilsEditScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E442C83B27A006036AA /* StencilsEditScreen.swift */; };
+		63189E512C83C309006036AA /* StencilView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E472C83BA6C006036AA /* StencilView.swift */; };
+		63189E532C83C71B006036AA /* Stencils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E522C83C71B006036AA /* Stencils.swift */; };
+		63189E542C83CB24006036AA /* Stencils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E522C83C71B006036AA /* Stencils.swift */; };
+		63189E552C83CB24006036AA /* Stencils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E522C83C71B006036AA /* Stencils.swift */; };
+		63189E572C842216006036AA /* StencilDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E562C842216006036AA /* StencilDetailScreen.swift */; };
+		63189E582C842216006036AA /* StencilDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E562C842216006036AA /* StencilDetailScreen.swift */; };
+		63189E592C842216006036AA /* StencilDetailScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E562C842216006036AA /* StencilDetailScreen.swift */; };
+		63189E652C86545A006036AA /* StencilModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E642C86545A006036AA /* StencilModel.swift */; };
+		63189E662C86545A006036AA /* StencilModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E642C86545A006036AA /* StencilModel.swift */; };
+		63189E672C86545A006036AA /* StencilModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E642C86545A006036AA /* StencilModel.swift */; };
+		63189E6E2C86B3CF006036AA /* ShapesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E6D2C86B3CF006036AA /* ShapesApi.swift */; };
+		63189E6F2C86B3CF006036AA /* ShapesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E6D2C86B3CF006036AA /* ShapesApi.swift */; };
+		63189E702C86B3CF006036AA /* ShapesApi.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E6D2C86B3CF006036AA /* ShapesApi.swift */; };
+		63189E7B2C86DB7C006036AA /* ShapeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E7A2C86DB7C006036AA /* ShapeDTO.swift */; };
+		63189E7C2C86DB7C006036AA /* ShapeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E7A2C86DB7C006036AA /* ShapeDTO.swift */; };
+		63189E7D2C86DB7C006036AA /* ShapeDTO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63189E7A2C86DB7C006036AA /* ShapeDTO.swift */; };
+		63252FB42E6A3F9600AFCC73 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 63252FB32E6A3F9600AFCC73 /* Localizable.xcstrings */; };
+		63252FB52E6A3F9600AFCC73 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 63252FB32E6A3F9600AFCC73 /* Localizable.xcstrings */; };
+		63252FB62E6A3F9600AFCC73 /* Localizable.xcstrings in Resources */ = {isa = PBXBuildFile; fileRef = 63252FB32E6A3F9600AFCC73 /* Localizable.xcstrings */; };
+		6394305C2C8F8ABD0024A14E /* ShapesApiTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6394305B2C8F8ABD0024A14E /* ShapesApiTests.swift */; };
+		63A970D02C7EF68700B14783 /* StencilCutApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A970CF2C7EF68700B14783 /* StencilCutApp.swift */; };
+		63A970D22C7EF68700B14783 /* StencilsHomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A970D12C7EF68700B14783 /* StencilsHomeScreen.swift */; };
+		63A970D42C7EF68900B14783 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A970D32C7EF68900B14783 /* Assets.xcassets */; };
+		63A970D72C7EF68900B14783 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 63A970D62C7EF68900B14783 /* Preview Assets.xcassets */; };
+		63A970E12C7EF68900B14783 /* StencilCutTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A970E02C7EF68900B14783 /* StencilCutTests.swift */; };
+		63A970EB2C7EF68900B14783 /* StencilCutUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A970EA2C7EF68900B14783 /* StencilCutUITests.swift */; };
+		63A970ED2C7EF68900B14783 /* StencilCutUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A970EC2C7EF68900B14783 /* StencilCutUITestsLaunchTests.swift */; };
+		63A970FF2C7EFC8A00B14783 /* ShapeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A970FE2C7EFC8A00B14783 /* ShapeModel.swift */; };
+		63A971002C7EFC8A00B14783 /* ShapeModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A970FE2C7EFC8A00B14783 /* ShapeModel.swift */; };
+		63A971022C7F054400B14783 /* ShapesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A971012C7F054400B14783 /* ShapesClient.swift */; };
+		63A971032C7F054400B14783 /* ShapesClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 63A971012C7F054400B14783 /* ShapesClient.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		63A970DD2C7EF68900B14783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63A970C42C7EF68700B14783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63A970CB2C7EF68700B14783;
+			remoteInfo = ShapeCut;
+		};
+		63A970E72C7EF68900B14783 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 63A970C42C7EF68700B14783 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 63A970CB2C7EF68700B14783;
+			remoteInfo = ShapeCut;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		63189E442C83B27A006036AA /* StencilsEditScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StencilsEditScreen.swift; sourceTree = "<group>"; };
+		63189E472C83BA6C006036AA /* StencilView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StencilView.swift; sourceTree = "<group>"; };
+		63189E522C83C71B006036AA /* Stencils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Stencils.swift; sourceTree = "<group>"; };
+		63189E562C842216006036AA /* StencilDetailScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StencilDetailScreen.swift; sourceTree = "<group>"; };
+		63189E642C86545A006036AA /* StencilModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StencilModel.swift; sourceTree = "<group>"; };
+		63189E6D2C86B3CF006036AA /* ShapesApi.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesApi.swift; sourceTree = "<group>"; };
+		63189E7A2C86DB7C006036AA /* ShapeDTO.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeDTO.swift; sourceTree = "<group>"; };
+		63252FB32E6A3F9600AFCC73 /* Localizable.xcstrings */ = {isa = PBXFileReference; lastKnownFileType = text.json.xcstrings; name = Localizable.xcstrings; path = Stencils/Model/Network/Localizable.xcstrings; sourceTree = "<group>"; };
+		6394305B2C8F8ABD0024A14E /* ShapesApiTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesApiTests.swift; sourceTree = "<group>"; };
+		63A970CC2C7EF68700B14783 /* StencilCut.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = StencilCut.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A970CF2C7EF68700B14783 /* StencilCutApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StencilCutApp.swift; sourceTree = "<group>"; };
+		63A970D12C7EF68700B14783 /* StencilsHomeScreen.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StencilsHomeScreen.swift; sourceTree = "<group>"; };
+		63A970D32C7EF68900B14783 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		63A970D62C7EF68900B14783 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		63A970DC2C7EF68900B14783 /* StencilCutTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StencilCutTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A970E02C7EF68900B14783 /* StencilCutTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StencilCutTests.swift; sourceTree = "<group>"; };
+		63A970E62C7EF68900B14783 /* StencilCutUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = StencilCutUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		63A970EA2C7EF68900B14783 /* StencilCutUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StencilCutUITests.swift; sourceTree = "<group>"; };
+		63A970EC2C7EF68900B14783 /* StencilCutUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StencilCutUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		63A970FE2C7EFC8A00B14783 /* ShapeModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapeModel.swift; sourceTree = "<group>"; };
+		63A971012C7F054400B14783 /* ShapesClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ShapesClient.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		63A970C92C7EF68700B14783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A970D92C7EF68900B14783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A970E32C7EF68900B14783 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		63189E632C86542B006036AA /* View */ = {
+			isa = PBXGroup;
+			children = (
+				63189E472C83BA6C006036AA /* StencilView.swift */,
+				63189E522C83C71B006036AA /* Stencils.swift */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		63189E742C86B7FA006036AA /* Screens */ = {
+			isa = PBXGroup;
+			children = (
+				63189E562C842216006036AA /* StencilDetailScreen.swift */,
+				63189E442C83B27A006036AA /* StencilsEditScreen.swift */,
+				63A970D12C7EF68700B14783 /* StencilsHomeScreen.swift */,
+			);
+			path = Screens;
+			sourceTree = "<group>";
+		};
+		63189E752C86B85C006036AA /* Stencils */ = {
+			isa = PBXGroup;
+			children = (
+				63A970FD2C7EFC6A00B14783 /* Model */,
+				63189E742C86B7FA006036AA /* Screens */,
+				63189E632C86542B006036AA /* View */,
+			);
+			path = Stencils;
+			sourceTree = "<group>";
+		};
+		63A970C32C7EF68700B14783 = {
+			isa = PBXGroup;
+			children = (
+				63A970CE2C7EF68700B14783 /* StencilCut */,
+				63A970DF2C7EF68900B14783 /* StencilCutTests */,
+				63A970E92C7EF68900B14783 /* StencilCutUITests */,
+				63A970CD2C7EF68700B14783 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		63A970CD2C7EF68700B14783 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				63A970CC2C7EF68700B14783 /* StencilCut.app */,
+				63A970DC2C7EF68900B14783 /* StencilCutTests.xctest */,
+				63A970E62C7EF68900B14783 /* StencilCutUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		63A970CE2C7EF68700B14783 /* StencilCut */ = {
+			isa = PBXGroup;
+			children = (
+				63252FB32E6A3F9600AFCC73 /* Localizable.xcstrings */,
+				63A970CF2C7EF68700B14783 /* StencilCutApp.swift */,
+				63189E752C86B85C006036AA /* Stencils */,
+				63A970D32C7EF68900B14783 /* Assets.xcassets */,
+				63A970D52C7EF68900B14783 /* Preview Content */,
+			);
+			path = StencilCut;
+			sourceTree = "<group>";
+		};
+		63A970D52C7EF68900B14783 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				63A970D62C7EF68900B14783 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		63A970DF2C7EF68900B14783 /* StencilCutTests */ = {
+			isa = PBXGroup;
+			children = (
+				63A970E02C7EF68900B14783 /* StencilCutTests.swift */,
+				6394305B2C8F8ABD0024A14E /* ShapesApiTests.swift */,
+			);
+			path = StencilCutTests;
+			sourceTree = "<group>";
+		};
+		63A970E92C7EF68900B14783 /* StencilCutUITests */ = {
+			isa = PBXGroup;
+			children = (
+				63A970EA2C7EF68900B14783 /* StencilCutUITests.swift */,
+				63A970EC2C7EF68900B14783 /* StencilCutUITestsLaunchTests.swift */,
+			);
+			path = StencilCutUITests;
+			sourceTree = "<group>";
+		};
+		63A970F92C7EFA9A00B14783 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				63189E6D2C86B3CF006036AA /* ShapesApi.swift */,
+				63A971012C7F054400B14783 /* ShapesClient.swift */,
+				63189E7A2C86DB7C006036AA /* ShapeDTO.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		63A970FD2C7EFC6A00B14783 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				63189E642C86545A006036AA /* StencilModel.swift */,
+				63A970FE2C7EFC8A00B14783 /* ShapeModel.swift */,
+				63A970F92C7EFA9A00B14783 /* Network */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		63A970CB2C7EF68700B14783 /* StencilCut */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A970F02C7EF68900B14783 /* Build configuration list for PBXNativeTarget "StencilCut" */;
+			buildPhases = (
+				63A970C82C7EF68700B14783 /* Sources */,
+				63A970C92C7EF68700B14783 /* Frameworks */,
+				63A970CA2C7EF68700B14783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = StencilCut;
+			productName = ShapeCut;
+			productReference = 63A970CC2C7EF68700B14783 /* StencilCut.app */;
+			productType = "com.apple.product-type.application";
+		};
+		63A970DB2C7EF68900B14783 /* StencilCutTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A970F32C7EF68900B14783 /* Build configuration list for PBXNativeTarget "StencilCutTests" */;
+			buildPhases = (
+				63A970D82C7EF68900B14783 /* Sources */,
+				63A970D92C7EF68900B14783 /* Frameworks */,
+				63A970DA2C7EF68900B14783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63A970DE2C7EF68900B14783 /* PBXTargetDependency */,
+			);
+			name = StencilCutTests;
+			productName = ShapeCutTests;
+			productReference = 63A970DC2C7EF68900B14783 /* StencilCutTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		63A970E52C7EF68900B14783 /* StencilCutUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 63A970F62C7EF68900B14783 /* Build configuration list for PBXNativeTarget "StencilCutUITests" */;
+			buildPhases = (
+				63A970E22C7EF68900B14783 /* Sources */,
+				63A970E32C7EF68900B14783 /* Frameworks */,
+				63A970E42C7EF68900B14783 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				63A970E82C7EF68900B14783 /* PBXTargetDependency */,
+			);
+			name = StencilCutUITests;
+			productName = ShapeCutUITests;
+			productReference = 63A970E62C7EF68900B14783 /* StencilCutUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		63A970C42C7EF68700B14783 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1540;
+				LastUpgradeCheck = 1640;
+				TargetAttributes = {
+					63A970CB2C7EF68700B14783 = {
+						CreatedOnToolsVersion = 15.4;
+					};
+					63A970DB2C7EF68900B14783 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 63A970CB2C7EF68700B14783;
+					};
+					63A970E52C7EF68900B14783 = {
+						CreatedOnToolsVersion = 15.4;
+						TestTargetID = 63A970CB2C7EF68700B14783;
+					};
+				};
+			};
+			buildConfigurationList = 63A970C72C7EF68700B14783 /* Build configuration list for PBXProject "StencilCut" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 63A970C32C7EF68700B14783;
+			packageReferences = (
+			);
+			productRefGroup = 63A970CD2C7EF68700B14783 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				63A970CB2C7EF68700B14783 /* StencilCut */,
+				63A970DB2C7EF68900B14783 /* StencilCutTests */,
+				63A970E52C7EF68900B14783 /* StencilCutUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		63A970CA2C7EF68700B14783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A970D72C7EF68900B14783 /* Preview Assets.xcassets in Resources */,
+				63A970D42C7EF68900B14783 /* Assets.xcassets in Resources */,
+				63252FB42E6A3F9600AFCC73 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A970DA2C7EF68900B14783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63252FB52E6A3F9600AFCC73 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A970E42C7EF68900B14783 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63252FB62E6A3F9600AFCC73 /* Localizable.xcstrings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		63A970C82C7EF68700B14783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63189E482C83BA6C006036AA /* StencilView.swift in Sources */,
+				63189E572C842216006036AA /* StencilDetailScreen.swift in Sources */,
+				63A970D22C7EF68700B14783 /* StencilsHomeScreen.swift in Sources */,
+				63189E452C83B27A006036AA /* StencilsEditScreen.swift in Sources */,
+				63A970D02C7EF68700B14783 /* StencilCutApp.swift in Sources */,
+				63189E652C86545A006036AA /* StencilModel.swift in Sources */,
+				63189E6E2C86B3CF006036AA /* ShapesApi.swift in Sources */,
+				63A971022C7F054400B14783 /* ShapesClient.swift in Sources */,
+				63189E7B2C86DB7C006036AA /* ShapeDTO.swift in Sources */,
+				63189E532C83C71B006036AA /* Stencils.swift in Sources */,
+				63A970FF2C7EFC8A00B14783 /* ShapeModel.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A970D82C7EF68900B14783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A971032C7F054400B14783 /* ShapesClient.swift in Sources */,
+				63189E4C2C83C2FB006036AA /* StencilCutApp.swift in Sources */,
+				63189E4E2C83C300006036AA /* StencilsHomeScreen.swift in Sources */,
+				63189E582C842216006036AA /* StencilDetailScreen.swift in Sources */,
+				63189E6F2C86B3CF006036AA /* ShapesApi.swift in Sources */,
+				63189E512C83C309006036AA /* StencilView.swift in Sources */,
+				63A970E12C7EF68900B14783 /* StencilCutTests.swift in Sources */,
+				63189E502C83C306006036AA /* StencilsEditScreen.swift in Sources */,
+				63189E542C83CB24006036AA /* Stencils.swift in Sources */,
+				63189E662C86545A006036AA /* StencilModel.swift in Sources */,
+				63A971002C7EFC8A00B14783 /* ShapeModel.swift in Sources */,
+				63189E7C2C86DB7C006036AA /* ShapeDTO.swift in Sources */,
+				6394305C2C8F8ABD0024A14E /* ShapesApiTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		63A970E22C7EF68900B14783 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				63A970ED2C7EF68900B14783 /* StencilCutUITestsLaunchTests.swift in Sources */,
+				63189E4F2C83C301006036AA /* StencilsHomeScreen.swift in Sources */,
+				63189E4A2C83C2F3006036AA /* ShapeModel.swift in Sources */,
+				63189E462C83B27A006036AA /* StencilsEditScreen.swift in Sources */,
+				63189E4B2C83C2F8006036AA /* ShapesClient.swift in Sources */,
+				63189E702C86B3CF006036AA /* ShapesApi.swift in Sources */,
+				63189E492C83BA6C006036AA /* StencilView.swift in Sources */,
+				63189E552C83CB24006036AA /* Stencils.swift in Sources */,
+				63189E592C842216006036AA /* StencilDetailScreen.swift in Sources */,
+				63A970EB2C7EF68900B14783 /* StencilCutUITests.swift in Sources */,
+				63189E672C86545A006036AA /* StencilModel.swift in Sources */,
+				63189E4D2C83C2FC006036AA /* StencilCutApp.swift in Sources */,
+				63189E7D2C86DB7C006036AA /* ShapeDTO.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		63A970DE2C7EF68900B14783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63A970CB2C7EF68700B14783 /* StencilCut */;
+			targetProxy = 63A970DD2C7EF68900B14783 /* PBXContainerItemProxy */;
+		};
+		63A970E82C7EF68900B14783 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 63A970CB2C7EF68700B14783 /* StencilCut */;
+			targetProxy = 63A970E72C7EF68900B14783 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		63A970EE2C7EF68900B14783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		63A970EF2C7EF68900B14783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		63A970F12C7EF68900B14783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StencilCut/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = StencilCut;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.chadcummings.cricut.StencilCut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		63A970F22C7EF68900B14783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"StencilCut/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = StencilCut;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.productivity";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.chadcummings.cricut.StencilCut;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		63A970F42C7EF68900B14783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.chadcummings.cricut.ShapeCutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StencilCut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StencilCut";
+			};
+			name = Debug;
+		};
+		63A970F52C7EF68900B14783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.5;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.chadcummings.cricut.ShapeCutTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/StencilCut.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/StencilCut";
+			};
+			name = Release;
+		};
+		63A970F72C7EF68900B14783 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.chadcummings.cricut.ShapeCutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShapeCut;
+			};
+			name = Debug;
+		};
+		63A970F82C7EF68900B14783 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = io.chadcummings.cricut.ShapeCutUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = ShapeCut;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		63A970C72C7EF68700B14783 /* Build configuration list for PBXProject "StencilCut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A970EE2C7EF68900B14783 /* Debug */,
+				63A970EF2C7EF68900B14783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A970F02C7EF68900B14783 /* Build configuration list for PBXNativeTarget "StencilCut" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A970F12C7EF68900B14783 /* Debug */,
+				63A970F22C7EF68900B14783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A970F32C7EF68900B14783 /* Build configuration list for PBXNativeTarget "StencilCutTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A970F42C7EF68900B14783 /* Debug */,
+				63A970F52C7EF68900B14783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		63A970F62C7EF68900B14783 /* Build configuration list for PBXNativeTarget "StencilCutUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				63A970F72C7EF68900B14783 /* Debug */,
+				63A970F82C7EF68900B14783 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 63A970C42C7EF68700B14783 /* Project object */;
+}

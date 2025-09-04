@@ -1,0 +1,57 @@
+{
+  "sourceLanguage" : "en",
+  "strings" : {
+    "Add" : {
+
+    },
+    "Add Stencil Shapes to Begin" : {
+      "extractionState" : "manual"
+    },
+    "Add to begin" : {
+      "extractionState" : "manual"
+    },
+    "Clear All" : {
+      "extractionState" : "manual"
+    },
+    "Clear all stencils" : {
+      "extractionState" : "manual"
+    },
+    "Delete All" : {
+
+    },
+    "Edit" : {
+
+    },
+    "Edit Circles" : {
+      "extractionState" : "manual"
+    },
+    "Grid of stencil shapes" : {
+      "extractionState" : "manual"
+    },
+    "No %@ stencils found" : {
+
+    },
+    "Remove" : {
+
+    },
+    "Shape %@" : {
+
+    },
+    "Tap an item to see stencil details" : {
+      "extractionState" : "manual"
+    },
+    "Tap to add a %@ stencil" : {
+
+    },
+    "Tap to clear all stencils" : {
+      "extractionState" : "manual"
+    },
+    "Tap to edit all circle stencils" : {
+      "extractionState" : "manual"
+    },
+    "Unknown" : {
+
+    }
+  },
+  "version" : "1.0"
+}

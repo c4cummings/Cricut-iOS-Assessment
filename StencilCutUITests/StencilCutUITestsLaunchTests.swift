@@ -1,13 +1,13 @@
 //
-//  ShapeCutUITestsLaunchTests.swift
-//  ShapeCutUITests
+//  StencilCutUITestsLaunchTests.swift
+//  StencilCutUITests
 //
 //  Created by Chad Cummings on 8/28/24.
 //
 
 import XCTest
 
-final class ShapeCutUITestsLaunchTests: XCTestCase {
+final class StencilCutUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

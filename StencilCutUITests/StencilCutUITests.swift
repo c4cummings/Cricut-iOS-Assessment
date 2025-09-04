@@ -1,13 +1,13 @@
 //
-//  ShapeCutUITests.swift
-//  ShapeCutUITests
+//  StencilCutUITests.swift
+//  StencilCutUITests
 //
 //  Created by Chad Cummings on 8/28/24.
 //
 
 import XCTest
 
-final class ShapeCutUITests: XCTestCase {
+final class StencilCutUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.
